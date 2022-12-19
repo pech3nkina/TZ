@@ -1,3 +1,7 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
 input {
     width: 100%;
@@ -44,9 +48,8 @@ input[type=submit] {
 .valid:before {
     position: relative;
     left: -35px;
-    content: "&#10004;";
+    content: "✔";
 }
-
 
 .invalid {
     color: red;
@@ -55,5 +58,11 @@ input[type=submit] {
 .invalid:before {
     position: relative;
     left: -35px;
-    content: "&#10006;";
+    content: "✖";
 }
+</style>
+</head>
+<body>
+
+<h3>Проверка пароля</h3>
+<p>Попробуйте отправить форму</p>
