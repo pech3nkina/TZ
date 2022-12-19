@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Test Task</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+<body>
+  <div id="posForm">
+    <form>
+      <p>
+        <label for="log">Логин (e-mail)</label>
+        <input type="email" id="log" name="email" required>
+      </p>
+      <p>
+        <label for="pass">Пароль</label>
+        <input type="password" id="pass" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}" title="Длина пароля от 6 до 20 символов. Только латиница и/или цыфры" required>
+      </p>
+      <p>
+        <button>Войти</button>
+      </p>
+    </form>
+  </div>
+</body>
+
+</html>
